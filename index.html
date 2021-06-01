@@ -16,12 +16,16 @@
     }
     ul li{
       cursor: pointer;
-      overflow: hidden;
       position: relative;
       padding: 12px 8px 12px 40px;
+      border-bottom: 1px solid #eee;
       background: #eee;
       font-size: 18px;
-      transition: .2s;
+      transition: 0.2s;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
     }
     ul li:nth-child(odd){
       background: #f9f9f9;
